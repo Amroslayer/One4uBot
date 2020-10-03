@@ -138,7 +138,7 @@ async def mim(event):
             return
 
         await event.edit(
-            "```Transfiguration Time! Mwahaha Memifying this image! (」ﾟﾛﾟ)｣ ```"
+            "```Transfiguration Time! Memifying this image... ```"
         )
         await asyncio.sleep(5)
         text = event.pattern_match.group(1)
@@ -268,7 +268,7 @@ async def draw_meme_text(image_path, text):
     return webp_file
 
 
-@register(outgoing=True, pattern=r"^\.q")
+@register(outgoing=True, pattern=r"^\.quotly")
 async def quotess(qotli):
     if qotli.fwd_from:
         return
@@ -448,7 +448,7 @@ async def lastname(steal):
     if message.sender.bot:
         await steal.edit("```Reply to actual users message.```")
         return
-    await steal.edit("```Sit tight while I steal some data from NASA```")
+    await steal.edit("```Sit tight while I steal some data from Facebook```")
     async with bot.conversation(chat) as conv:
         try:
             msg = await conv.send_message(id)
@@ -471,14 +471,14 @@ async def lastname(steal):
         )
 
 
-@register(outgoing=True, pattern="^.waifu(?: |$)(.*)")
+@register(outgoing=True, pattern="^.asticker(?: |$)(.*)")
 async def waifu(animu):
     text = animu.pattern_match.group(1)
     if not text:
         if animu.is_reply:
             text = (await animu.get_reply_message()).message
         else:
-            await animu.answer("`No text given, hence the waifu ran away.`")
+            await animu.answer("`No text given`")
             return
     animus = [20, 32, 33, 40, 41, 42, 58]
     sticcers = await bot.inline_query(
@@ -546,7 +546,7 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "waifu": ".waifu \
+        "Anime Sticker": ".asticker \
           \nUsage: Enchance your text with beautiful anime girl templates. \
           \n@StickerizerBot"
     }
