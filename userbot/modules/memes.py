@@ -1037,7 +1037,7 @@ async def tf(focc):
 
 CMD_HELP.update(
     {
-        "memes": ".cowsay\
+"memes": ".cowsay\
 \nUsage: cow which says things.\
 \n\n.vapor\
 \nUsage: Vaporize everything!\
