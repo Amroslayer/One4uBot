@@ -1032,19 +1032,32 @@ async def paw(pawed):
 async def tf(focc):
     if not focc.text[0].isalpha() and focc.text[0] not in ("/", "#", "@", "!"):
         await focc.edit("(̿▀̿ ̿Ĺ̯̿̿▀̿ ̿)̄  ")
-
-
+        
 
 CMD_HELP.update(
     {
-"memes": ".cowsay\
+        "memes": ".cowsay\
 \nUsage: cow which says things.\
+\n\n:/\
+\nUsage: Check yourself ;)\
+\n\n-_-\
+\nUsage: Ok...\
+\n\n;_;\
+\nUsage: Like `-_-` but crying.\
+\n\n.cp\
+\nUsage: Copypasta the famous meme\
 \n\n.vapor\
 \nUsage: Vaporize everything!\
 \n\n.str\
 \nUsage: Stretch it.\
 \n\n.zal\
 \nUsage: Invoke the feeling of chaos.\
+\n\nOof\
+\nUsage: Ooooof\
+\n\n.moon\
+\nUsage: kensar moon animation.\
+\n\n.clock\
+\nUsage: kensar clock animation.\
 \n\n.hi\
 \nUsage: Greet everyone!\
 \n\n.coinflip <heads/tails>\
@@ -1069,6 +1082,8 @@ CMD_HELP.update(
 \nUsage: Do it and find the real fun.\
 \n\n.clap\
 \nUsage: Praise people!\
+\n\n.f <emoji/character>\
+\nUsage: Pay Respects.\
 \n\n.bt\
 \nUsage: Believe me, you will find this useful.\
 \n\n.type\
@@ -1081,5 +1096,8 @@ CMD_HELP.update(
 \n[Available Actions: (typing, contact, game, location, voice, round, video, photo, document, cancel)]\
 \nUsage: Create fake chat actions, for fun. (Default action: typing)\
 \n\nAnd many more\
+\n.nou ; .bot ; .gey ; .gey ; .tf ; .paw ; .taco ; .nih ;\
+\n.fag ; .gtfo ; .stfu ; .lol ; .lool ; .fail ; .earth ; .iwi\
+\n\n\nThanks to 🅱️ottom🅱️ext🅱️ot (@NotAMemeBot) for some of these."
     }
 )
