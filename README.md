@@ -1,6 +1,7 @@
-# One4uBot Userbot Fallback Project
+# SlayerRemixBot Userbot Fallback Project
+                     ## This is just modified userbot from Paperplane Extended and One4Ubot Repository
 
-![logo](https://telegra.ph/file/9b329a3aeaf87c92c4811.jpg)
+![logo](https://telegra.ph/file/b50ab2e2fbaa64508200b.jpg)
 
 ```
 #include <std/disclaimer.h>
@@ -43,4 +44,4 @@ and many more people who aren't mentioned here, but may be found in [Contributor
 
 ## License
 
-This userbot licensed on [Raphielscape Public License](https://github.com/MoveAngel/One4uBot/blob/sql-extended/LICENSE) - Version 1.d, February 2020
+This userbot licensed on [Raphielscape Public License](https://github.com/Amroslayer/SlayerRemixBot/blob/sql-extended/LICENSE) - Version 1.d, February 2020
